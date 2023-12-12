@@ -1,82 +1,125 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.html"
-
-</head>
-
-<body>
-
-    <div class="header">
-
-        <h1 class="animated">Epic Academy</h1>
-
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Epic Academy
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <meta content="noindex, nofollow" name="robots"/>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <a class="navbar-brand" href="#">
+    Epic Academy
+   </a>
+   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+    <span class="navbar-toggler-icon">
+    </span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+     <li class="nav-item active">
+      <a class="nav-link" href="#">
+       Home
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       About
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Courses
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Contact
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Sign Up
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="text-center" id="hero">
+   <h1>
+    Welcome to Epic Academy
+   </h1>
+   <p>
+    Your path to success starts here.
+   </p>
+  </section>
+  <!-- Sign Up Section -->
+  <section class="container mt-5" id="signup">
+   <div class="row justify-content-center">
+    <div class="col-md-6">
+     <h2>
+      Sign Up
+     </h2>
+     <form id="signupForm">
+      <div class="form-group">
+       <label for="name">
+        Name:
+       </label>
+       <input class="form-control" id="name" placeholder="Enter your name" required="" type="text"/>
+      </div>
+      <div class="form-group">
+       <label for="email">
+        Email:
+       </label>
+       <input class="form-control" id="email" placeholder="Enter your email" required="" type="email"/>
+      </div>
+      <div class="form-group">
+       <label for="password">
+        Password:
+       </label>
+       <input class="form-control" id="password" placeholder="Enter your password" required="" type="password"/>
+      </div>
+      <button class="btn btn-primary w-100" type="submit">
+       Sign Up
+      </button>
+     </form>
     </div>
-
-    <div class="menu-bar">
-
-        <ul>
-
-            <li><a href="course1.html">Course 1</a></li>
-
-            <li><a href="course2.html">Course 2</a></li>
-
-            <!-- Add more course links -->
-
-        </ul>
-
+   </div>
+  </section>
+  <!-- Buttons Section -->
+  <section class="container mt-5" id="buttons">
+   <div class="row justify-content-center">
+    <div class="col-md-6">
+     <h2>
+      Choose a Group
+     </h2>
+     <div class="d-flex justify-content-between">
+      <button class="btn btn-primary" id="group1">
+       Group 1
+      </button>
+      <button class="btn btn-primary" id="group2">
+       Group 2
+      </button>
+      <button class="btn btn-primary" id="group3">
+       Group 3
+      </button>
+      <button class="btn btn-primary" id="group4">
+       Group 4
+      </button>
+     </div>
     </div>
-
-    <div class="stats-button">
-
-        <a href="stats.html">Statistics</a>
-
-    </div>
-
-
-
-    <div class="login-signup-form">
-
-        <div class="login-form">
-
-            <h2>Login</h2>
-
-            <input type="text" id="login-username" placeholder="Username">
-
-            <input type="password" id="login-password" placeholder="Password">
-
-            <button id="login-button" type="button">Login</button>
-
-            <p class="error-message" id="login-error-message"></p>
-
-        </div>
-
-        <div class="signup-form">
-
-            <h2>Sign Up</h2>
-
-            <input type="text" id="signup-username" placeholder="Username">
-
-            <input type="password" id="signup-password" placeholder="Password">
-
-            <button id="signup-button" type="button">Sign Up</button>
-
-            <p class="error-message" id="signup-error-message"></p>
-
-        </div>
-
-    </div>
-
-
-
-    <script src="script.js"></script>
-
-</body>
-
+   </div>
+  </section>
+  <!-- Bootstrap & jQuery JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+ </body>
 </html>
-
