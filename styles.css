@@ -1,0 +1,89 @@
+/* Add CSS styles for the login and signup forms */
+
+.login-signup-form {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+
+
+.login-form, .signup-form {
+
+    padding: 20px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    background-color: #fff;
+
+}
+
+
+
+.login-form h2, .signup-form h2 {
+
+    text-align: center;
+
+}
+
+
+
+.login-form input, .signup-form input {
+
+    display: block;
+
+    width: 100%;
+
+    margin: 10px 0;
+
+    padding: 10px;
+
+}
+
+
+
+.login-button, #signup-button {
+
+    background-color: #333;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+.login-button:hover, #signup-button:hover {
+
+    background-color: #555;
+
+}
+
+
+
+.error-message {
+
+    color: red;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+}
+
+
+
+/* Other CSS styles remain the same */
